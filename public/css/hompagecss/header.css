@@ -1,0 +1,65 @@
+.education-nav .navbar .mail, .education-nav .navbar .phone{
+color:white;
+font-weight: 500;
+font-size: 16px;
+}
+
+.education-nav .navbar .navbar-nav .nav-item a i.head_icon{
+    color: white;
+}
+.education-nav .navbar .navbar-nav .nav-item a.head_iconlink{
+    height: 38px;
+    width: 38px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 4px;
+    display: inline-block;
+    border: 1px solid #fff;
+    font-size: 15px;
+    color: #fff;
+    padding-top: 0px;
+    margin-right: 0px;
+}
+
+.animate-image-1 {
+    position: absolute;
+    left: -30px;
+    top: 30%;
+    transform: translateY(-50%);
+}
+.top_image_bounce {
+    animation:  3s infinite ease-in-out;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: top-image-bounce;
+}
+.partner-slides .owl-dots{
+    text-align: left !important;
+    counter-reset: dots;
+    display: inline-block;
+    margin-left: 42px;
+    position: absolute;
+   
+}
+.partner-slides .owl-dots .owl-dot::before{
+    counter-increment: dots;
+    content: counter(dots);
+    font-size: larger;
+}
+.partner-slides .owl-dots .owl-dot{
+background: transparent;
+    border: 0;
+    color: #fff;
+    width: 20px;
+    transition: 0.4s;
+}
+.partner-slides .owl-dots .owl-dot span{
+    width: 0px !important; 
+    height: 0px !important;
+     margin: 0px !important;
+}

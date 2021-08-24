@@ -1,0 +1,30 @@
+{
+    "name": "education",
+    "version": "1.0.0",
+    "description": "innowhiz - React Next Online Courses & Education portal",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "NODE_ENV=production node server.js"
+    },
+    "author": "innowhiz.co.in",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.0",
+        "next": "^10.0.0",
+        "nodemailer": "^6.4.14",
+        "nodemailer-sendgrid-transport": "^0.2.0",
+        "react": "^17.0.1",
+        "react-accessible-accordion": "^3.3.3",
+        "react-dom": "^17.0.1",
+        "react-hook-form": "^6.10.1",
+        "react-image-lightbox": "^5.1.1",
+        "react-modal-video": "^1.2.6",
+        "react-owl-carousel3": "^2.2.5",
+        "react-tabs": "^3.1.1",
+        "sass": "^1.28.0",
+        "sweetalert2": "^10.9.0",
+        "sweetalert2-react-content": "^3.2.1"
+    }
+}
