@@ -8,10 +8,9 @@ const Layout = ({ children }) => {
             <Head>
                 <title>Education Portal</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                <meta name="description" content="education - React Next Online Courses & Education Template" />
-                <meta name="og:title" property="og:title" content="education - React Next Online Courses & Education Template"></meta>
-                <meta name="twitter:card" content="education - React Next Online Courses & Education Template"></meta>
-                {/* <link rel="canonical" href="https://education-react.envytheme.com/"></link> */}
+                <meta name="description" content="Education Portal" />
+                <meta name="og:title" property="og:title" content="Education Portal"></meta>
+                <meta name="twitter:card" content="Education Portal"></meta>
             </Head>
 
             {children}
