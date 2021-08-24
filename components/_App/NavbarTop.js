@@ -26,7 +26,7 @@ const NavbarTop = () => {
 
     return (
         <React.Fragment>
-            <div className="navbar-area" style={{ background: 'linear-gradient(to right, #2878EB, #F129C9)', paddingTop:"13px", paddingBottom:"13px"}}>
+            <div className="navbar-area" style={{ background: 'linear-gradient(to right, #2878EB, #F129C9)', paddingTop:"13px", paddingBottom:"13px",position:"relative"}}>
                 <div className="education-nav">
                     <div className="container">
                         <div className="navbar navbar-expand-lg navbar-light">
